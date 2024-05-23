@@ -1,0 +1,29 @@
+.card {
+    background-color: transparent !important;
+
+}
+.card .card-body{
+    padding-top: 5px;
+    padding-left: 0px;
+}
+.card .card-body h2{
+    color: #F1EEF5;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.card .card-body label{
+    padding-top: 5x;
+    margin-right: 56px;
+    color: #a9a9a9;
+    font-size: 15px;
+}
+.card .card-body .icon{
+   font-size: 20px;
+}
+.bi-eye-fill{
+    color: #F34096;
+}
+.bi-star-fill{
+    color: yellow;
+}

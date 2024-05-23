@@ -1,0 +1,19 @@
+{
+  "name": "apirestpractico",
+  "version": "1.0.0",
+  "description": "Practica Consumo de APIREST",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlBautista93/ApiRestPractico.git"
+  },
+  "author": "Alejandro Bautista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlBautista93/ApiRestPractico/issues"
+  },
+  "homepage": "https://github.com/AlBautista93/ApiRestPractico#readme"
+}

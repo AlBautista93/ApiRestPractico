@@ -1,0 +1,10 @@
+body{
+    background-color: #090911;
+}
+
+#container-populars{
+    z-index: 999;
+    margin-bottom: 30px;
+    top:2px;
+    margin-top: -20px;
+}
