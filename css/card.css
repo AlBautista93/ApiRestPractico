@@ -1,29 +1,33 @@
 .card {
     background-color: transparent !important;
-
 }
-.card .card-body{
+
+.card .card-body {
     padding-top: 5px;
     padding-left: 0px;
 }
-.card .card-body h2{
-    color: #F1EEF5;
+
+.card .card-body h2 {
     font-size: 13px;
     padding: 0;
     margin: 0;
 }
-.card .card-body label{
+
+.card .card-body label {
     padding-top: 5x;
     margin-right: 56px;
     color: #a9a9a9;
     font-size: 15px;
 }
-.card .card-body .icon{
-   font-size: 20px;
+
+.card .card-body .icon {
+    font-size: 20px;
 }
-.bi-eye-fill{
+
+.bi-eye-fill {
     color: #F34096;
 }
-.bi-star-fill{
+
+.bi-star-fill {
     color: yellow;
 }

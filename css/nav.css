@@ -1,13 +1,12 @@
+  .navbar .navbar-brand i {
+      color: #F34096;
+      font-size: 30px;
+  }
   
-.navbar .navbar-brand i{
-    color: #F34096;
-    font-size: 30px;
-}
-.navbar #navbarSupportedContent .navbar-nav{
-    margin-left: 89% !important;
-
-}
-.navbar .navbar-nav a{
-    color: white !important; 
-    font-size: 20px;
-}
+  .navbar #navbarSupportedContent .navbar-nav {
+      margin-left: 89% !important;
+  }
+  
+  .navbar .navbar-nav a {
+      font-size: 20px;
+  }
