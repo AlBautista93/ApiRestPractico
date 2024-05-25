@@ -14,11 +14,26 @@ h5 {
     color: #F1EEF5;
 }
 
-.title {}
+.icons {
+    text-align: right;
+}
+
+.bi-eye-fill {
+    color: #F34096;
+}
+
+.bi-star-fill {
+    color: yellow;
+}
 
 .subtitle {
     font-size: 40px !important;
 }
+
+.row {
+    margin-bottom: 50px !important;
+}
+
 
 #container-populars {
     z-index: 999;
@@ -28,34 +43,17 @@ h5 {
 #container-search {
     background-image: url('../sources/banner1.jpg');
     background-size: 100%;
-    background-attachment: fixed;
+
 }
 
-#container-search .cap {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+#container-search .background {
+    background: rgb(255,255,255);
+    background: linear-gradient(131deg, transparent 0%, rgba(0,0,0,0.4430147058823529) 34%);
+    height: 200px;
 }
 
-#container-search .col-12 {
-    height: 100px;
-}
-
-#container-search h2,
-#container-search i {
-    margin-top: 100px;
-    font-size: 80px;
-}
-
-.btn-link {
-    color: #F34096;
-}
-
-.btn-link:focus {
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    color: #F34096;
-    border-color: transparent;
-    text-decoration: none;
-    outline: none !important;
+#container-search h2 {
+    margin: 60px;
+    margin-left: 13%;
+    font-size: 60px;
 }

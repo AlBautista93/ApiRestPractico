@@ -1,33 +1,58 @@
-.card {
+.card-item {
     background-color: transparent !important;
 }
 
-.card .card-body {
+.card-item .card-body {
     padding-top: 5px;
     padding-left: 0px;
 }
-
-.card .card-body h2 {
-    font-size: 13px;
+.card-item .card-body .row,
+.card-item .card-body .row .col{
+    width:110%;
+    padding: 0;
+    margin: 0;
+    vertical-align:middle;
+}
+.card-item .card-title {
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
 
-.card .card-body label {
-    padding-top: 5x;
-    margin-right: 56px;
+.card-item .card-text{
     color: #a9a9a9;
-    font-size: 15px;
+    font-size: 12px;
 }
 
-.card .card-body .icon {
+.card-item .card-item-body .icon {
     font-size: 20px;
 }
 
-.bi-eye-fill {
-    color: #F34096;
+
+.card-item >img {
+    height: 250px !important;
 }
 
-.bi-star-fill {
-    color: yellow;
+.card-new >img {
+    height: 400px !important;
 }
+
+.card-new .card-img-overlay {
+   margin-top: 200px;
+   background-color: rgba(0,0,0,0.7);
+   border: 0;
+   border-radius: 0;
+   box-shadow: 0 -10px 50px black;
+}
+
+.card-new .card-img-overlay .card-text{
+    font-size: 13px;
+ }
+
+.card-new .card-img-overlay .card-text{
+    font-size: 12px;
+ }
+
+ .card-new .card-img-overlay .card-text .footer{
+    font-size: 12px;
+ }
