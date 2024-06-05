@@ -1,5 +1,6 @@
 function items(element) {
-    const imgUrl = 'https://static.posters.cz/image/350/posters/dune-parte-1-i122815.jpg'
+    console.log(element)
+    const imgUrl = 'https://image.tmdb.org/t/p/w500/'
     const container = document.createElement('div')
     const card = document.createElement('div')
     const img = document.createElement('img')
@@ -14,13 +15,13 @@ function items(element) {
     container.className = 'col-6 col-md-2'
     card.className = 'card card-item'
     img.className = 'rounder'
-    img.setAttribute('src', imgUrl)
+    img.setAttribute('src', imgUrl + element.poster_path)
     cardBody.className = 'card-dody'
     cardTitle.className = 'card-title'
-    cardTitle.innerHTML = 'Titulo'
+    cardTitle.innerHTML = element.original_title
     row.className = 'row'
     cardText.className = 'card-text col'
-    cardText.innerHTML = 2020
+    cardText.innerHTML = element.release_date
     col.className = 'col text-right'
     start.className = 'bi bi-eye-fill icon'
     eye.className = 'bi bi-star-fill icon'

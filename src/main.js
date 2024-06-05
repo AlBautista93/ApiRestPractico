@@ -1,10 +1,11 @@
 const subtitle = document.getElementById('subtitle')
 const container = document.getElementById('container')
 
-function addPopulars() {
-
-    for (let i = 0; i <= 10; i++) {
-        container.append(items())
+async function addPopulars() {
+    let { results } = await fetchConexion('/movie/popular')
+    subtitle.innerHTML = "Populares"
+    for (element of results) {
+        container.append(items(element))
     }
 }
 addPopulars()

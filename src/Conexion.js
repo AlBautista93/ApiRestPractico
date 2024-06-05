@@ -1,8 +1,7 @@
-API_URL = '';
+API_URL = 'https://api.themoviedb.org/3/';
 
-function fetchConexion(endPonit) {
+async function fetchConexion(endPonit) {
     const url = this.API_URL + endPonit + '?api_key=' + API_KEY
-    let result = fetch(url)
-
+    let result = await fetch(url)
     return result.json()
 }
